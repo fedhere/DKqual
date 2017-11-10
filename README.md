@@ -19,3 +19,10 @@ https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pi
 The download link here will provide the right data https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t#none
 
 the name of the column is the HC02_EST_VC18
+
+to merge the eduation df with the puma geodf you need to pay attention to the data type of the id columns: turn the puma id into an integer for example to match the acsedu["GEO.id2"] type
+
+
+puma["gid"] = (puma.id.values).astype(str)
+
+then you can merge using  gid and GEO.id2
