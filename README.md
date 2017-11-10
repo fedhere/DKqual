@@ -25,4 +25,9 @@ to merge the eduation df with the puma geodf you need to pay attention to the da
 
 puma["gid"] = (puma.id.values).astype(str)
 
-then you can merge using  gid and GEO.id2
+also convert the acsedu["GEO.id2"] to string (may already be but it wont hurt) 
+
+acsedu["gid"] = acsedu["GEO.id2"].astype(str)
+
+then you can merge using  "gid"
+
