@@ -9,3 +9,8 @@ tips and useful links:
   puma.merge(acsNY, right_on, left_on)
   
   you should then have 55 puma regions
+  
+- geopandas can be slow at calculating quartiles. you can calculate them in numpy with np.percentile. if the plotting is slow just leave the code line you would have used even if the plot is not rendered
+
+- the education can be assessed as percentage of people with bachelor or higher degree from here 
+https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_16_1YR_S1501&prodType=table
