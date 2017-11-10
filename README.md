@@ -14,4 +14,8 @@ tips and useful links:
 
 - the education can be assessed as percentage of people with bachelor or higher degree from here 
 https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t#none and
-https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_16_1YR_S1501&prodType=table. the name of the column is the HC02_EST_VC18
+https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_16_1YR_S1501&prodType=table.
+
+The download link here will provide the right data https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t#none
+
+the name of the column is the HC02_EST_VC18
