@@ -13,4 +13,4 @@ tips and useful links:
 - geopandas can be slow at calculating quartiles. you can calculate them in numpy with np.percentile. if the plotting is slow just leave the code line you would have used even if the plot is not rendered
 
 - the education can be assessed as percentage of people with bachelor or higher degree from here 
-https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_16_1YR_S1501&prodType=table. the name of the column is HC01_EST_VC1
+https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_16_1YR_S1501&prodType=table. the name of the column is the HC02_EST_VC18
